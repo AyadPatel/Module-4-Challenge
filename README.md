@@ -20,4 +20,5 @@ WHEN the game is over
 THEN I can save my initials and score
 
 GITHUB URL
+https://ayadpatel.github.io/Module-4-Challenge/
 
