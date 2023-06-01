@@ -100,7 +100,7 @@ var questions = [
     correctAnswer: "151",
   },
   {
-    question: "What Type Effective Agasint Water Type Pokemon?",
+    question: "What Type is Effective Against Water Type Pokemon?",
     choices: [
         "Water", "Grass", "Fire", "Dragon"
     ],
@@ -251,7 +251,7 @@ function showResultBox() {
 
   resultMessage.textContent = "All Done!";
   resultScoreMessage.textContent = "Your final score is: " + start.toString();
-  resultInitialsMessage.textContent = "Enter Initials: ";
+  resultInitialsMessage.textContent = "Enter Name: ";
   resultSubmitButton.textContent = "Submit";
 
   resultBox.appendChild(resultMessage);
