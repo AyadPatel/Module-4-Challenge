@@ -1,8 +1,8 @@
 :root {
-    --primary: rgb(12, 99, 229);
+    --primary: rgb(37, 105, 16);
     --secondary: rgb(175, 77, 77);
-    --tertiary: rgb(159, 180, 241);
-    --dark: rgb(22, 28, 51);
+    --tertiary: rgb(159, 165, 77);
+    --dark: rgb(0, 0, 0);
     --light: rgba(238, 238, 247, 1);
        
    }
@@ -31,7 +31,7 @@
 	padding: 10px 30px;
 	border: none;
 	border-radius: 10px;
-	font-size: 18px;
+	font-size: 30px;
 	margin: 10px;
 
 
@@ -48,7 +48,7 @@
 	padding: 10px 30px;
 	border: none;
 	border-radius: 10px;
-	font-size: 18px;
+	font-size: 30px;
 	margin: 10px;
 }
 
@@ -90,6 +90,7 @@ color: var(--light);
 }
 #resultMessage {
 	margin-top: 5%;
+    font-size: large;
 
 }
 
@@ -103,7 +104,7 @@ color: var(--light);
 	padding: 10px 30px;
 	border: none;
 	border-radius: 10px;
-	font-size: 14px;
+	font-size: 30px;
 	margin: 10px;
 
 }
@@ -116,7 +117,9 @@ color: var(--light);
 	
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center ;
+    size: 100px;
+    font-size: larger;
 	
 }
 #endOfQuiz {
@@ -129,7 +132,7 @@ color: var(--light);
 	padding: 10px 30px;
 	border: none;
 	border-radius: 10px;
-	font-size: 14px;
+	font-size: 30px;
 	margin: 10px;
 }
 
@@ -145,8 +148,5 @@ background-color: var(--dark);
 margin-top: 15px;
 
 
+
 }
- #highScoreBox {
-	margin-left: 0;
-	margin-top: 0;
-} 

@@ -7,9 +7,6 @@ var quizBoxEl = document.getElementById("quizBox");
 var startQuizButton = document.createElement("button");
 startQuizButton.id = "btn";
 
-var viewHighScoresEl = document.getElementById("highScoreBox");
-
-viewHighScoresEl.textContent = "View High Scores";
 
 var timerAndScores = document.getElementById("timerAndScores");
 
@@ -212,7 +209,6 @@ function nextQuestion() {
   startQuizBox();
 }
 
-function highScoreBox() {}
 
 function stopTimer() {}
 
