@@ -1,0 +1,153 @@
+:root {
+    --primary: rgb(12, 99, 229);
+    --secondary: rgb(30, 82, 84);
+    --tertiary: rgb(159, 180, 241);
+    --dark: rgb(22, 28, 51);
+    --light: rgba(238, 238, 247, 1);
+       
+   }
+   body { 
+	
+    background-color: var(--secondary);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	} 
+
+.display {
+    text-align: center;
+    color: var(--light);
+  
+}
+#questionBox {
+	margin-top: 8%;
+}
+
+#choiceBox{
+	margin-top: 2%;
+	display: flex;
+	flex-direction: column;
+}
+.choicesButton { 
+	 background-color:var(--tertiary);
+	color: var(--light);
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 10px;
+
+
+}
+
+.choicesButton:hover {
+
+	background-color: var(--tertiary);
+
+}
+#btn {
+    background-color:var(--dark);
+	color: var(--light);
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 10px;
+}
+
+#btn:hover {
+	background-color: var(--tertiary);
+	}
+#page-content {
+	display: flex;
+	text-align: center;
+	 flex-wrap: wrap;
+	align-items: center;
+	justify-content:center;
+flex-direction: column; 
+color: var(--light);
+
+
+}
+.choicesButton {
+	display: flex;
+	margin: 1%;
+	font-style: bold;
+	align-self: center;
+	font-size: medium;
+	flex-direction: column;
+	background-color:var(--dark);
+	height: fit-content;
+}
+#answerLine {
+	height: 0.5px;
+	width: 100%;
+	background: black;
+}
+#resultCovering {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5%;
+}
+#resultMessage {
+	margin-top: 5%;
+
+}
+
+#resultScoreMessage {
+	margin-top: 5%;
+}
+
+#submitButton {
+	background-color:var(--dark);
+	color: var(--light);
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	font-size: 14px;
+	margin: 10px;
+
+}
+
+#submitButton:hover {
+	background-color: var(--tertiary);
+}
+
+#timerAndScores {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+#endOfQuiz {
+
+	margin-top: 5%;
+}
+.endScreenButton {
+	background-color:var(--dark);
+	color: var(--light);
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	font-size: 14px;
+	margin: 10px;
+}
+
+.endScreenButton:hover {
+	background-color: var(--tertiary);
+}
+.quiz{
+	width: 100%
+}
+
+#endScoresHistory {
+background-color: var(--dark);
+margin-top: 15px;
+
+
+}
+ #highScoreBox {
+	margin-left: 0;
+	margin-top: 0;
+} 
