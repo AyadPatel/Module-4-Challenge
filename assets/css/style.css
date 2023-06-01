@@ -90,7 +90,7 @@ color: var(--light);
 }
 #resultMessage {
 	margin-top: 5%;
-    font-size: large;
+    font-size: 30px;
 
 }
 
